@@ -16,13 +16,9 @@ const ALL_MENU_CONFIG = MENU_CONFIG.reduce(
     [] as IQuickInsertMenuItem['children'],
 );
 
+// The shortcut hints show the desktop app's default key bindings
+// (packages/desktop/src/main/keyboard/keybindings*.ts).
 const COMMAND_KEY = isOsx ? '⌘' : '⌃';
-
-// These hints only describe the desktop app's default `edit.duplicate`,
-// `edit.create-paragraph` and `edit.delete-paragraph` key bindings
-// (packages/desktop/src/main/keyboard/); the desktop spec
-// paragraph-front-menu-shortcuts.spec.ts fails when the two drift apart.
-// Duplicate is the one bound differently on each platform.
 const DUPLICATE_SHORTCUT = isOsx ? '⌥⌘D' : isWin ? '⌥⌃D' : '⇧⌃E';
 
 export const FRONT_MENU = [

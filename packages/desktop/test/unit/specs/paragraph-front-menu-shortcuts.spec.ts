@@ -3,9 +3,8 @@ import keybindingsDarwin from 'main_renderer/keyboard/keybindingsDarwin'
 import keybindingsWindows from 'main_renderer/keyboard/keybindingsWindows'
 import keybindingsLinux from 'main_renderer/keyboard/keybindingsLinux'
 
-// muya's paragraph front menu hardcodes the shortcut hints it shows next to
-// Duplicate / New Paragraph / Delete, so nothing ties them to the key binding
-// tables. They drifted once already (#5155); this keeps them in step.
+// muya hardcodes the paragraph front menu's shortcut hints, so nothing else
+// ties them to these tables (#5155).
 const FRONT_MENU_KEYBINDING: Readonly<Record<string, string>> = {
   duplicate: 'edit.duplicate',
   new: 'edit.create-paragraph',

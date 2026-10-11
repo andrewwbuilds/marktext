@@ -1,10 +1,5 @@
 import { afterEach, describe, expect, it, vi } from 'vitest';
 
-// The front menu only displays these hints; the keys themselves are bound by
-// the desktop app (`edit.duplicate`, `edit.create-paragraph` and
-// `edit.delete-paragraph` in packages/desktop/src/main/keyboard/), so the
-// expected values below are those defaults.
-
 // `isOsx` and `isWin` are read once when the config module loads, so every
 // platform gets a fresh import of the menu config.
 async function loadShortcuts(platform: { isOsx: boolean; isWin: boolean }) {
