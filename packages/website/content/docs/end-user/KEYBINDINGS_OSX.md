@@ -43,7 +43,7 @@ MarkText key bindings for macOS. Please see [general key bindings](KEYBINDINGS.m
 | `edit.copy-as-html`       | -                                                 | Copy selected text as html                      |
 | `edit.paste-as-plaintext` | <kbd>Command</kbd>+<kbd>Shift</kbd>+<kbd>V</kbd>  | Copy selected text as plaintext                 |
 | `edit.select-all`         | <kbd>Command</kbd>+<kbd>A</kbd>                   | Select all text of the document                 |
-| `edit.duplicate`          | <kbd>Command</kbd>+<kbd>Option</kbd>+<kbd>P</kbd> | Duplicate the current paragraph                 |
+| `edit.duplicate`          | <kbd>Command</kbd>+<kbd>Option</kbd>+<kbd>D</kbd> | Duplicate the current paragraph                 |
 | `edit.create-paragraph`   | <kbd>Command</kbd>+<kbd>Shift</kbd>+<kbd>N</kbd>  | Create a new paragraph after the current one    |
 | `edit.delete-paragraph`   | <kbd>Command</kbd>+<kbd>Shift</kbd>+<kbd>D</kbd>  | Delete current paragraph                        |
 | `edit.find`               | <kbd>Command</kbd>+<kbd>F</kbd>                   | Find information in the document                |

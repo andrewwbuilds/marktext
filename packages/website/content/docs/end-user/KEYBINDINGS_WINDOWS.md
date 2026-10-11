@@ -36,7 +36,7 @@ MarkText key bindings for Windows. Please see [general key bindings](KEYBINDINGS
 | `edit.copy-as-html`       | -                                             | Copy selected text as html                      |
 | `edit.paste-as-plaintext` | <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>V</kbd> | Copy selected text as plaintext                 |
 | `edit.select-all`         | <kbd>Ctrl</kbd>+<kbd>A</kbd>                  | Select all text of the document                 |
-| `edit.duplicate`          | <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>P</kbd>   | Duplicate the current paragraph                 |
+| `edit.duplicate`          | <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>D</kbd>   | Duplicate the current paragraph                 |
 | `edit.create-paragraph`   | <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>N</kbd> | Create a new paragraph after the current one    |
 | `edit.delete-paragraph`   | <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>D</kbd> | Delete current paragraph                        |
 | `edit.find`               | <kbd>Ctrl</kbd>+<kbd>F</kbd>                  | Find information in the document                |
